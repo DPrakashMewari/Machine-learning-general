@@ -13,7 +13,7 @@
 <label> BP : To Predict the No of Upvotes </label>
 
 
-<i> We Find our Model with Great 87% R2 :{R2 Goodness of fit}{ Using Random Forest}</i>
+<i> We Find our Model with 87% R2 :{R2 Goodness of fit}{ Using Random Forest}</i>
 
 - We try Different Models Such as
 - Linear Regression
