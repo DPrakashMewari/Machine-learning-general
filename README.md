@@ -1,2 +1,2 @@
-# MachinelearningProject
-<li> It Contains Machine Learning Projects and basics of Data Science Algorithms </li>
+<ol> It Contains Machine small Projects and 
+  basics of Data Science Algorithms </ol>
