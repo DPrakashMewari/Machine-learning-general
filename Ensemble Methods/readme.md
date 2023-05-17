@@ -1,34 +1,28 @@
-# Ensemble Methods 
-## Bagging 
-## Boosting
-<p>
-Ensemble learning is a machine learning paradigm
-where multiple models often called weak learners are trained to solve to get better result .
+1. Ensemble techniques are machine learning methods that combine multiple models to obtain better predictive performance. There are several types of ensemble techniques commonly used:
 
-Here is Main Idea to use ensemble is that weak model will work better in a combined way.
+1. **Bagging**: Bagging stands for Bootstrap Aggregating. It involves training multiple models independently 
+on different subsets of the training data, and then aggregating their predictions to make the final prediction.
+An example of a bagging ensemble technique is the Random Forest algorithm, which combines multiple decision trees.
 
-So how to combine these models.
-Using Bagging and Boosting;</p>
-<p>
-Bagging : Is often consider homogenous learner(weak-learner) learn them independently from each other and follow some kind of averaging process.
-And it is also know as Bootstrap aggregation that will produces a ensemble model that is more robust then any individual model.
-</p>
-- Bagging Using Random Forest
-<p>
-Boosting : Is also often considers homogenous weak learners,learns them sequentially (a base models depends on the previous one).Here is idea to fit models 
-iteratively.
-</p>
-<span>Boosting Techiniques:
-</span>
-- Adaboost 
-- Gradient Boosting 
-- Xgboost
+2. **Boosting**: Boosting is an iterative ensemble technique where models are trained sequentially, with each subsequent model 
+focusing more on the misclassified instances by the previous models.
+Boosting aims to improve the overall performance by giving more weight to difficult instances.
+Examples of boosting algorithms include AdaBoost (Adaptive Boosting) and Gradient Boosting.
+
+3. **Stacking**: Stacking, or stacked generalization, combines multiple models by training a meta-model to 
+make predictions based on the outputs of the base models. The base models' predictions serve as 
+input features for the meta-model. Stacking aims to leverage the strengths of individual models. 
+An example of stacking is combining different classifiers like Random Forest, K-Nearest Neighbors,
+and Logistic Regression to make the final prediction.
+
+4. **Voting**: Voting ensemble techniques combine the predictions of multiple models by
+taking the majority vote (for classification tasks) or the average (for regression tasks) to make 
+the final prediction. There are different types of voting techniques such as hard voting (simple majority)
+and soft voting (weighted average based on confidence scores). An example is the VotingClassifier in scikit-learn.
 
 
-
-
-
-
-
-
-
+-    These are some of the commonly used ensemble techniques in machine learning. 
+    Each technique has its own advantages and is suitable for different scenarios.
+    By combining multiple models, ensemble techniques can often achieve better predictive performance
+    compared to individual models.
+    
